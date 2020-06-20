@@ -4,7 +4,7 @@ var isDrawing=false;
 
 function setup() {
   
-  canvas = createCanvas(400, 400);
+  canvas = createCanvas(500, 500);
   canvas.mousePressed(startPath);
   canvas.mouseReleased(endPath);
   var button = createButton('Clear');
